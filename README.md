@@ -26,6 +26,7 @@
 - 👨‍⚕️ **Doctor Management** – Add, edit, or remove doctors easily.
 - 📊 **Appointment Oversight** – Monitor all appointments in a single dashboard.
 - 🖥 **Admin Panel** – Access at `/admin` to manage your practice efficiently.
+- 💳 **Clerk Billing** – Track subscription and billing info for premium features.
 
 ### 💌 Email Notifications
 - ✉️ **Automated Emails** – Sends beautiful appointment confirmations via **Resend**.
@@ -36,6 +37,7 @@
 - ⚡ **Next.js & Tailwind CSS** – Modern, fast, and responsive frontend.
 - 🖱 **Interactive Components** – Smooth toasts via **Sonner**, hover effects, and animations.
 - 🌓 **Future Dark Mode** – Prepared for future dark mode integration.
+- 🧩 **shadcn/ui** – Elegant, ready-to-use UI components.
 
 ---
 
@@ -46,10 +48,14 @@
 | **Next.js** | Full-stack React framework | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) |
 | **Tailwind CSS** | Utility-first CSS framework | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white) |
 | **Clerk** | Authentication & user management | ![Clerk](https://img.shields.io/badge/Clerk-3D6EE1?style=for-the-badge&logo=clerk&logoColor=white) |
+| **Clerk Billing** | Subscription & payments management | ![Clerk Billing](https://img.shields.io/badge/Clerk_Billing-FF6F61?style=for-the-badge) |
 | **Sonner** | Toast notifications | ![Sonner](https://img.shields.io/badge/Sonner-FF6F61?style=for-the-badge) |
 | **Resend** | Email sending service | ![Resend](https://img.shields.io/badge/Resend-2563EB?style=for-the-badge&logo=mailchimp&logoColor=white) |
-| **PostgreSQL** | Relational database | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) |
+| **PostgreSQL (Neon)** | Relational cloud database | ![PostgreSQL](https://img.shields.io/badge/Neon_PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) |
+| **Prisma ORM** | Type-safe database ORM | ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white) |
+| **VAPI AI** | AI-powered virtual assistant & chatbot | ![VAPI AI](https://img.shields.io/badge/VAPI_AI-FF4500?style=for-the-badge) |
 | **Lucide Icons** | Open-source icon library | ![Lucide Icons](https://img.shields.io/badge/Lucide-000000?style=for-the-badge&logo=lucide&logoColor=white) |
+| **shadcn/ui** | Ready-to-use React UI components | ![shadcn UI](https://img.shields.io/badge/shadcn_ui-2563EB?style=for-the-badge) |
 
 ---
 
@@ -61,7 +67,7 @@
 **Email Confirmation Example**  
 ![Email Screenshot](https://i.ibb.co/your-email-screenshot.png)  
 
-> 💡 *Tip:* Screenshots above show the responsive design and the email confirmation workflow.
+> 💡 *Tip:* Screenshots show responsive design and email confirmation workflow.
 
 ---
 
@@ -79,26 +85,40 @@
 - 📈 Analytics dashboard for admins (appointments, revenue, patient activity).
 - 🏥 Multi-doctor support with advanced search and filters.
 - 🌙 Dark mode for improved UX.
+- 🤖 AI assistant via **VAPI AI** for patient queries and reminders.
 
 ---
 
-## 🤝 Contributing
+## 💬 Contribute to Ivory  
 
-Contributions are welcome!  
+We welcome contributions from developers and enthusiasts!  
 
-1. Fork the repository  
-2. Create a new branch (`git checkout -b feature/YourFeature`)  
-3. Commit your changes (`git commit -m 'Add YourFeature'`)  
-4. Push to your branch (`git push origin feature/YourFeature`)  
-5. Open a Pull Request  
+1. 🍴 Fork the repository.  
+2. 🌿 Create a new branch:  
+    ```bash
+    git checkout -b feature-branch
+    ```
+3. 🖊️ Commit your changes:  
+    ```bash
+    git commit -m "Add your feature"
+    ```
+4. 🚀 Push the branch:  
+    ```bash
+    git push origin feature-branch
+    ```
+5. 🔀 Open a pull request.  
 
 ---
 
-## 📄 License
+## 📬 Contact & Support  
 
-This project is licensed under the [MIT License](LICENSE).  
+💬 **Have any questions or suggestions? Feel free to reach out!**  
+
+📧 **Email**: [soumojitbanerjee22@gmail.com](mailto:soumojitbanerjee22@gmail.com)  
+🔗 **LinkedIn**: [Soumojit Banerjee](https://www.linkedin.com/in/soumojit-banerjee-4914b3228/)  
 
 ---
 
-Made with ❤️ by **Soumojit Banerjee**  
-[Website](https://soumojit.vercel.app) | [GitHub](https://github.com/soumojit622) | [LinkedIn](https://www.linkedin.com/in/soumojit-banerjee-4914b3228)
+## 👨‍💻 Developed by [Soumojit Banerjee](https://www.linkedin.com/in/soumojit-banerjee-4914b3228/)  
+
+If you enjoyed using this project, please ⭐ it on GitHub! 🌟  
