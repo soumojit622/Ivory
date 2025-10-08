@@ -58,7 +58,7 @@ function DoctorsManagement() {
             onClick={() => setIsAddDialogOpen(true)}
             className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/100 shadow-md hover:shadow-lg transition-all duration-300 rounded-lg"
           >
-            <PlusIcon className="mr-2 h-4 w-4" />
+            <PlusIcon className="h-4 w-4" />
             Add Doctor
           </Button>
         </CardHeader>
