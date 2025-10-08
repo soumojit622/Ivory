@@ -5,14 +5,11 @@
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Clerk](https://img.shields.io/badge/Clerk-3D6EE1?style=for-the-badge&logo=clerk&logoColor=white)](https://clerk.com/)
-[![Clerk Billing](https://img.shields.io/badge/Clerk_Billing-FF6F61?style=for-the-badge)](https://clerk.com/)
 [![Sonner](https://img.shields.io/badge/Sonner-FF6F61?style=for-the-badge)](https://sonner.js.org/)
 [![Resend](https://img.shields.io/badge/Resend-2563EB?style=for-the-badge&logo=mailchimp&logoColor=white)](https://resend.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Neon](https://img.shields.io/badge/Neon-00CFFF?style=for-the-badge)](https://neon.tech/)
 [![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
 [![VAPI AI](https://img.shields.io/badge/VAPI_AI-FF4500?style=for-the-badge)](https://vapi.ai/)
-[![Lucide Icons](https://img.shields.io/badge/Lucide-000000?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
 [![shadcn/ui](https://img.shields.io/badge/shadcn_ui-2563EB?style=for-the-badge)](https://ui.shadcn.com/)
 
 ---
