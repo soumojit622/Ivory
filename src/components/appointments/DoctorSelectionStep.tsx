@@ -34,7 +34,7 @@ function DoctorSelectionStep({
   if (isLoading)
     return (
       <div className="space-y-6">
-        <h2 className="text-2xl font-semibold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
+        <h2 className="text-3xl font-semibold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
           Choose Your Dentist
         </h2>
         <DoctorCardsLoading />
@@ -45,7 +45,7 @@ function DoctorSelectionStep({
     <div className="space-y-8">
       {/* Header */}
       <div className="text-center md:text-left">
-        <h2 className="text-3xl font-bold bg-gradient-to-r from-foreground to-primary/70 bg-clip-text text-transparent">
+        <h2 className="text-3xl font-semibold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
           Choose Your Dentist
         </h2>
         <p className="text-muted-foreground mt-1 text-sm">
