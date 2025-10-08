@@ -51,7 +51,7 @@ function AdminDashboardClient() {
               </div>
 
               <div>
-                <h1 className="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-foreground via-primary/80 to-primary/60 bg-clip-text text-transparent">
+                <h1 className="text-4xl pb-1 font-extrabold tracking-tight bg-gradient-to-r from-foreground via-primary/80 to-primary/60 bg-clip-text text-transparent">
                   Welcome back, {user?.firstName || "Admin"}!
                 </h1>
                 <p className="text-muted-foreground mt-2 max-w-md text-base leading-relaxed">

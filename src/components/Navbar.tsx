@@ -19,12 +19,16 @@ export default function Navbar() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const ADMIN_EMAIL = process.env.NEXT_PUBLIC_ADMIN_EMAIL; // public env variable
+
   const links = [
     { href: "/dashboard", label: "Dashboard", icon: HomeIcon },
     { href: "/appointments", label: "Appointments", icon: CalendarIcon },
     { href: "/voice", label: "Voice", icon: MicIcon },
     { href: "/pro", label: "Pro", icon: CrownIcon },
   ];
+
+  const isAdmin = user?.emailAddresses?.[0]?.emailAddress === ADMIN_EMAIL;
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 h-16 backdrop-blur-xl bg-background/70 border-b border-border/50 shadow-md">
@@ -62,6 +66,16 @@ export default function Navbar() {
               </Link>
             );
           })}
+
+          {/* Admin Button */}
+          {isAdmin && (
+            <Link
+              href="/admin"
+              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-red-500 text-white text-sm font-medium hover:bg-red-600 transition-all"
+            >
+              Admin
+            </Link>
+          )}
         </div>
 
         {/* Right Section */}
@@ -117,6 +131,17 @@ export default function Navbar() {
                 {label}
               </Link>
             ))}
+
+            {/* Admin Button for mobile */}
+            {isAdmin && (
+              <Link
+                href="/admin"
+                className="w-full flex items-center justify-center px-6 py-3 rounded-lg bg-red-500 text-white font-medium hover:bg-red-600 transition-all"
+                onClick={() => setMenuOpen(false)}
+              >
+                Admin
+              </Link>
+            )}
           </div>
         )}
       </div>
