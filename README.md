@@ -131,6 +131,9 @@ NEXT_PUBLIC_VAPI_API_KEY=your_vapi_api_key
 # Admin Account
 ADMIN_EMAIL=your_admin_email
 
+# Expose admin email to frontend if needed
+NEXT_PUBLIC_ADMIN_EMAIL=your_admin_email
+
 # Email Sending Service
 RESEND_API_KEY=your_resend_api_key
 
