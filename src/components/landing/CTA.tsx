@@ -88,7 +88,7 @@ function CTA() {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-2xl blur-2xl scale-110 animate-pulse-slow"></div>
                 <Image
                   src="/cta.png"
-                  alt="DentWise AI Assistant"
+                  alt="Ivory AI Assistant"
                   width={380}
                   height={380}
                   className="relative w-80 h-auto drop-shadow-2xl rounded-2xl hover:scale-105 transition-transform duration-500"
