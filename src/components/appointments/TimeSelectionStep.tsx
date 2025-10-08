@@ -176,7 +176,10 @@ function TimeSelectionStep({
       {/* Continue Button */}
       {selectedType && selectedDate && selectedTime && (
         <div className="flex justify-end mt-6">
-          <Button className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/100 shadow-lg hover:shadow-xl transition-all duration-300 px-8 py-3 text-lg border border-border/30">
+          <Button
+            className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/100 shadow-lg hover:shadow-xl transition-all duration-300 px-8 py-3 text-lg border border-border/30"
+            onClick={onContinue}
+          >
             Review Booking
           </Button>
         </div>

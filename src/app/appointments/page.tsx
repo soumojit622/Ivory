@@ -183,56 +183,71 @@ function AppointmentsPage() {
 
       {/* User’s Scheduled Appointments */}
       {userAppointments.length > 0 && (
-        <div className="max-w-7xl mx-auto px-6 py-12">
-          <h2 className="text-xl font-semibold mb-6">
-            Your Scheduled Appointments
-          </h2>
+        <section className="max-w-7xl mx-auto px-6 py-16">
+          {/* Header */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-10">
+            <div>
+              <h2 className="text-3xl font-semibold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
+                Your Scheduled Appointments
+              </h2>
+              <p className="text-sm text-muted-foreground mt-1">
+                View and manage your upcoming consultations
+              </p>
+            </div>
+          </div>
 
+          {/* Appointments Grid */}
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {userAppointments.map((appointment) => (
               <div
                 key={appointment.id}
-                className="group relative bg-card border border-border/60 rounded-2xl p-5 hover:shadow-lg transition-all"
+                className="group relative bg-card border border-border/70 rounded-2xl p-6 transition-all duration-300 hover:shadow-md hover:border-primary/50"
               >
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="relative">
+                {/* Doctor Section */}
+                <div className="flex items-center gap-4 mb-5">
+                  <div className="relative shrink-0">
                     <img
                       src={appointment.doctorImageUrl}
                       alt={appointment.doctorName}
-                      className="size-12 rounded-full border border-border object-cover"
+                      className="size-14 rounded-full border border-border/60 object-cover transition-transform duration-300 group-hover:scale-105"
                     />
                     <span className="absolute -bottom-1 -right-1 w-3 h-3 bg-green-500 rounded-full ring-2 ring-background" />
                   </div>
                   <div>
-                    <p className="font-medium text-base">
+                    <p className="font-medium text-base text-foreground leading-tight">
                       {appointment.doctorName}
                     </p>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-sm text-muted-foreground capitalize">
                       {appointment.reason}
                     </p>
                   </div>
                 </div>
 
-                <div className="space-y-2 text-sm text-muted-foreground">
+                {/* Appointment Info */}
+                <div className="space-y-3 text-sm">
                   <div className="flex items-center gap-2">
-                    <CalendarDays className="w-4 h-4" />
-                    <span>
+                    <CalendarDays className="w-4 h-4 text-primary" />
+                    <span className="text-foreground">
                       {format(new Date(appointment.date), "MMM d, yyyy")}
                     </span>
                   </div>
+
                   <div className="flex items-center gap-2">
-                    <Clock className="w-4 h-4" />
-                    <span>{appointment.time}</span>
+                    <Clock className="w-4 h-4 text-primary" />
+                    <span className="text-foreground">{appointment.time}</span>
                   </div>
+
                   <div className="flex items-center gap-2">
-                    <UserRound className="w-4 h-4" />
-                    <span>{appointment.patientEmail}</span>
+                    <UserRound className="w-4 h-4 text-primary" />
+                    <span className="truncate text-muted-foreground">
+                      {appointment.patientEmail}
+                    </span>
                   </div>
                 </div>
               </div>
             ))}
           </div>
-        </div>
+        </section>
       )}
     </>
   );
