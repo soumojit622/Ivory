@@ -88,7 +88,7 @@ Experience Ivory in action:
 
 ## 🏗 Architecture / Workflow
 
-![Workflow Diagram](https://via.placeholder.com/800x400?text=Workflow+Diagram)
+<img src="https://github.com/soumojit622/Ivory/blob/master/public/workflow.png" alt="Workflow Diagram" width="600" style="display:block; margin:auto;">
 
 > *Diagram shows the flow: patient books → appointment saved in Neon DB via Prisma → email sent via Resend → admin manages via dashboard.*
 
