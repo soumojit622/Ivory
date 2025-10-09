@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 //@ts-ignore
 import ActivityOverview from "@/components/dashboard/ActivityOverview";
 import MainActions from "@/components/dashboard/MainActions";
@@ -17,4 +19,5 @@ function DashboardPage() {
     </>
   );
 }
+
 export default DashboardPage;
