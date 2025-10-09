@@ -77,10 +77,10 @@ Experience Ivory in action:
 ## 🖼 Screenshots
 
 **Dashboard & Appointment Booking**  
-![Dashboard Screenshot](https://i.ibb.co/tRy6cC2)  
+![Dashboard Screenshot](https://github.com/soumojit622/Ivory/blob/master/public/dashboard.jpg)  
 
 **Email Confirmation Example**  
-![Email Screenshot](https://i.ibb.co/your-email-screenshot.png)  
+![Email Screenshot](https://github.com/soumojit622/Ivory/blob/master/public/mail.jpg)  
 
 > 💡 *Tip:* Screenshots highlight responsive UI and email confirmation workflow.
 
