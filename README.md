@@ -1,6 +1,6 @@
 # 🦷 Ivory - Dental Appointment Management Web App
 
-![Ivory Banner](https://i.ibb.co/tRy6cC2)
+![Ivory Banner](https://github.com/soumojit622/Ivory/blob/master/public/banner.jpg)
 
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
