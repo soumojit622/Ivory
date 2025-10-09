@@ -21,7 +21,7 @@
 
 ## 🌐 Live Demo
 Experience Ivory in action:  
-[**🔗 Live Demo**](https://ivory.vercel.app/)  
+[**🔗 Live Demo**](https://ivory-hzl5.vercel.app/)  
 
 > 💡 *Tip:* Use the admin email defined in `ADMIN_EMAIL` to access the admin panel and explore admin functionalities.
 
